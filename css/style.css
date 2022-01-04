@@ -76,7 +76,7 @@ nav ul li a:hover{
 
 h4{
   font-size: 2rem;
-  color: #149195;
+  color: purple;
   margin-top: -50px;
 }
 
@@ -86,7 +86,7 @@ h4{
 }
 
 h5 small{
-  color: #149195;
+  color: purple;
 }
 
 p{
@@ -96,4 +96,33 @@ p{
   text-transform: capitalize;
   text-align: justify;
   max-width: 350px;
+}
+
+.linkButton{
+  text-decoration: none;
+  padding: 6px 20px;
+  background: linear-gradient(purple, salmon);
+  color: white;
+  border-radius: 5px;
+}
+
+.social{
+  margin-top: 30px;
+}
+
+.socialBtn{
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: purple;
+  border-radius: 4px;
+  margin-right: 10px;
+  border-left: 1px solid purple;
+  transition: .5s ease-in-out;
+}
+.socialBtn:hover{
+  /* border: none; */
+  box-shadow: 10px 20px 20px rgba(0,0,0,0.9);
+ 
 }
