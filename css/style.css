@@ -154,7 +154,9 @@ h5 .purpleColor{
 .aboutInfo{
   padding: 0 1rem;
   /* width: 90%; */
+  /* margin-top: 4rem; */
   min-height: 100vh;
+  margin-bottom: 100px;
 }
 
 
@@ -166,10 +168,53 @@ h5 .purpleColor{
   object-position: center;
 }
 
+
+/* docs */
+.docsContainer{
+  margin-top: -40px;
+}
 .aboutDescription{
   font-size: 1.2rem;
   color: gray;
   text-transform: capitalize;
   text-align: justify;
   /* max-width: 350px; */
+}
+
+.docsCard{
+  width: 300px;
+  height: 350px;
+  /* border: 3px solid salmon; */
+  padding: 0 1rem;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.docsHeading{
+  font-size: 2.2rem;
+}
+
+.docsDescription{
+  font-size: 1.2rem;
+  color: gray;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.docs{
+  border: none;
+  border-top: 3px double salmon;
+  text-align: center;
+  overflow: visible;
+  color: purple;
+  height: 5px;
+  width: 50%;
+  /* margin-bottom: 100px; */
+  font-size: 3rem;
+}
+.docs::after{
+  content: "Docs";
+  top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 0 6px;
 }
