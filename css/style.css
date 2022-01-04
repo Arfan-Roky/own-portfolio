@@ -167,6 +167,10 @@ h5 .purpleColor{
   object-fit: cover;
   object-position: center;
   border: 2px solid purple;
+  /* background-image: url(//images/arfanroky1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
 }
 
 
